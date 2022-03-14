@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T00:56:43.999Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="16.6.4" etag="TtZ1yaKEgBGtbJ1vd2Ce" type="github"><diagram id="2PqWWMGJAPxcARkdghQb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-14T01:04:57.007Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Erk6ZXpkKtYZQb_Zmizm" version="16.6.4" type="github">
+  <diagram id="2PqWWMGJAPxcARkdghQb" name="Page-1">
+    <mxGraphModel dx="845" dy="648" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OCRdkAoeZ9JYUGTBR3j1-1" value="活动的" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="59" y="202" width="79" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="OCRdkAoeZ9JYUGTBR3j1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="OCRdkAoeZ9JYUGTBR3j1-2" target="OCRdkAoeZ9JYUGTBR3j1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OCRdkAoeZ9JYUGTBR3j1-12" value="刷新到磁盘时遇到了错误" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="OCRdkAoeZ9JYUGTBR3j1-11">
+          <mxGeometry x="-0.1346" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCRdkAoeZ9JYUGTBR3j1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="OCRdkAoeZ9JYUGTBR3j1-2" target="OCRdkAoeZ9JYUGTBR3j1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OCRdkAoeZ9JYUGTBR3j1-14" value="刷新到磁盘" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="OCRdkAoeZ9JYUGTBR3j1-13">
+          <mxGeometry x="-0.1569" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCRdkAoeZ9JYUGTBR3j1-2" value="部分提&lt;br&gt;交的" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="260" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OCRdkAoeZ9JYUGTBR3j1-3" value="提交的" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="646" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OCRdkAoeZ9JYUGTBR3j1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="OCRdkAoeZ9JYUGTBR3j1-4" target="OCRdkAoeZ9JYUGTBR3j1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OCRdkAoeZ9JYUGTBR3j1-16" value="回滚操作执行完" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="OCRdkAoeZ9JYUGTBR3j1-15">
+          <mxGeometry x="0.1242" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCRdkAoeZ9JYUGTBR3j1-4" value="失败的" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="260" y="358" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OCRdkAoeZ9JYUGTBR3j1-5" value="中止的" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="646" y="358" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OCRdkAoeZ9JYUGTBR3j1-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.05;entryY=0.813;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OCRdkAoeZ9JYUGTBR3j1-1" target="OCRdkAoeZ9JYUGTBR3j1-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="147" y="209" as="sourcePoint" />
+            <mxPoint x="197" y="159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCRdkAoeZ9JYUGTBR3j1-8" value="最后一个操作执行完" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;rotation=-30;" vertex="1" parent="1">
+          <mxGeometry x="105" y="148" width="145" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="OCRdkAoeZ9JYUGTBR3j1-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;exitX=0.595;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OCRdkAoeZ9JYUGTBR3j1-1" target="OCRdkAoeZ9JYUGTBR3j1-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="118" y="353" as="sourcePoint" />
+            <mxPoint x="255.56928214313143" y="274.47071785686853" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCRdkAoeZ9JYUGTBR3j1-10" value="遇到错误/手动停止" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;rotation=30;" vertex="1" parent="1">
+          <mxGeometry x="132.9968417743718" y="303.9962794416289" width="134" height="22" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
